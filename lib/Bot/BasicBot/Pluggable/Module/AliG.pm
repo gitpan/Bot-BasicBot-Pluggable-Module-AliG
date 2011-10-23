@@ -3,7 +3,7 @@ use warnings;
 package Bot::BasicBot::Pluggable::Module::AliG;
 use base qw(Bot::BasicBot::Pluggable::Module);
 
-our $VERSION = '0.0001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use Acme::AliG;
 
@@ -31,7 +31,7 @@ Bot::BasicBot::Pluggable::Module::AliG - IRC bot that translates phrases from En
 
 =head1 VERSION
 
-version 0.0001
+version 0.002
 
 =head1 SYNOPSIS
 

@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Acme::AliG" => 0
   },
-  "VERSION" => "0.0001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => ""
   }

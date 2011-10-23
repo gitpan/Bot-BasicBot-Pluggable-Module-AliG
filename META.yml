@@ -17,4 +17,4 @@ requires:
 resources:
   bugtracker: http://github.com/throughnothing/Bot-BasicBot-Pluggable-Module-AliG/issues
   repository: git://github.com/throughnothing/Bot-BasicBot-Pluggable-Module-AliG.git
-version: 0.0001
+version: 0.002

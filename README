@@ -3,7 +3,7 @@ NAME
     from English to Ali G
 
 VERSION
-    version 0.0001
+    version 0.002
 
 SYNOPSIS
         use Bot::BasicBot::Pluggable::Module;
