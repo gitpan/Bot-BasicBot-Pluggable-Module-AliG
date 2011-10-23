@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "turns phrases into alig-phrases",
+  "ABSTRACT" => "IRC bot that translates phrases from English to Ali G",
   "AUTHOR" => "William Wolf <throughnothing\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -19,8 +19,10 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Bot::BasicBot::Pluggable::Module::AliG",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.001",
+  "PREREQ_PM" => {
+    "Acme::AliG" => 0
+  },
+  "VERSION" => "0.0001",
   "test" => {
     "TESTS" => ""
   }
